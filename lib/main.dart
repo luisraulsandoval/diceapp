@@ -42,6 +42,7 @@ class _HomePageState extends State<HomePage> {
               child: TextButton(
                   onPressed: () {
                     d1 = Random().nextInt(6) + 1;
+                    d2 = Random().nextInt(6) + 1;
                     setState(() {});
                   },
                   child: Image.asset("assets/images/dice$d1.png")),
@@ -50,6 +51,7 @@ class _HomePageState extends State<HomePage> {
               flex: 1,
               child: TextButton(
                   onPressed: () {
+                    d1 = Random().nextInt(6) + 1;
                     d2 = Random().nextInt(6) + 1;
                     setState(() {});
                   },
